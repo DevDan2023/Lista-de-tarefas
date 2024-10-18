@@ -1,0 +1,130 @@
+/* Estilos gerais */
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    background-color: whitesmoke;
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+ul {
+    display: flex;
+    flex-direction: column-reverse;
+    margin-bottom: 20px;
+}
+
+.Titulo button{
+    position: absolute;
+    right: 18%;
+    margin-top: -35px;
+}
+
+.Titulo i {
+    font-size: 22px;
+}
+
+.to-do {
+    margin-top: 40px;
+    width: 90%;
+}
+
+.textInsert {
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    outline: none;
+    width: 90%;
+}
+
+.inserir-tarefa {
+    width: 500px;
+    padding: 10px;
+    background-color: lightgray;
+    border-radius: 10px;
+    display: flex;
+    box-shadow: 6px 5px 10px 0px grey;
+}
+
+button {
+    width: 10%;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.bi-plus-circle-fill {
+    font-size: 40px;
+    margin-left: 10px;
+    color: rgb(139, 14, 223);
+}
+
+.divLi {
+    width: 500px;
+    margin-top: 20px;
+    padding: 20px;
+    background-color: lightgray;
+    border-radius: 10px;
+    box-shadow: 6px 5px 10px 0px grey;
+    display: flex;
+    align-items: center;
+}
+
+.divLi span {
+    width: 80%;
+    color: dimgray;
+}
+
+.divLi input {
+    width: 10%;
+    outline: none;
+    accent-color: currentcolor;
+}
+
+.divLi i {
+    font-size: 20px;
+    color: brown;
+}
+
+li {
+    list-style: none;
+}
+
+.line-through {
+    text-decoration: line-through;
+}
+
+@media (max-width: 720px) {
+    .textInsert {
+        width: 80%;
+    }
+    .inserir-tarefa button {
+        width: 30%;
+    }
+    .inserir-tarefa, .divLi {
+        width: 300px;
+    }
+    .Titulo i{
+        padding: 150%;
+    }
+
+    i {
+        font-size: 30px;
+        padding: 0px;
+    }
+    p {
+        font-size: x-large;
+    }
+}
